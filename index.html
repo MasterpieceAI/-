@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTERPIECE</title>
+    <link rel="icon" href="Logo.png" type="image/png"> <!-- Ganti 'icon.png' dengan path ke gambar ikon -->
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            margin: 20px;
+            background-color: #000000; /* Tambahkan warna latar belakang yang menarik */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            background-image: url('Bg.png'); /* Ganti 'nama-file-gambar.jpg' dengan path atau URL gambar Anda */
+            background-size: cover; /* Untuk menutupi seluruh area header dengan gambar */
+            background-position: center; /* Untuk mengatur posisi gambar ke tengah header */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+            color: #F3F1E4;
+            font-size: 30;
+            padding: 0px;
+            text-align: center;
+            width: 100%; /* Menyesuaikan lebar dengan lebar tampilan */
+        }
+
+        P {
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 24px;
+        }
+
+        nav:hover {
+            color: #ffcc00;
+        }
+
+        main {
+            padding: 4px;
+            margin-left: 5px;
+            text-align: center;
+            color: #F3F1E4;
+            font-size: 20px;
+            flex: 1; /* Mengalokasikan sisa ruang kosong ke elemen ini */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        a {
+            background-image: url('Bg3.png'); /* Ganti 'nama-file-gambar.jpg' dengan path atau URL gambar Anda */
+            background-size: cover; /* Untuk menutupi seluruh area header dengan gambar */
+            background-position: center; /* Untuk mengatur posisi gambar ke tengah header */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+            color: #FFA500;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 20px 0;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Efek transisi saat hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan halus */
+        }
+
+        #menu-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        #menu-container {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 200px;
+            height: 100%;
+            background-color: #27374D;
+            padding: 10px;
+            color: #F3F1E4;
+            overflow-y: auto;
+        }
+
+        #menu-container a {
+            background-image: url('Bg3.png'); /* Ganti 'nama-file-gambar.jpg' dengan path atau URL gambar Anda */
+            background-size: cover; /* Untuk menutupi seluruh area header dengan gambar */
+            background-position: center; /* Untuk mengatur posisi gambar ke tengah header */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+            color: #F3F1E4;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: none;
+            color: #F3F1E4;
+            padding: 10px;
+            margin-top: auto; /* Memastikan footer selalu di bagian bawah */
+            width: 100%; /* Menyesuaikan lebar dengan lebar tampilan */
+            background-image: url('Bg2.png'); /* Ganti 'nama-file-gambar.jpg' dengan path atau URL gambar Anda */
+            background-size: cover; /* Untuk menutupi seluruh area header dengan gambar */
+            background-position: center; /* Untuk mengatur posisi gambar ke tengah header */
+            background-repeat: no-repeat; /* Agar gambar tidak diulang */
+            color: #F3F1E4;
+            padding: 0%;
+            text-align: center;
+        }
+
+        #menu-icon {
+            font-size: 38px; /* Ganti angka ini sesuai dengan ukuran yang Anda inginkan */
+            color: #FFA500;
+            position: absolute;
+            top: 150px; /* Ubah nilai top sesuai keinginan Anda */
+            left: 10px; /* Ubah nilai left sesuai keinginan Anda */
+        }
+
+        video {
+            width: 50%;
+            height: auto;  
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>𝐖𝐞𝐛 𝐀𝐈 𝐌𝐚𝐬𝐭𝐞𝐫𝐩𝐢𝐞𝐜𝐞</h1>
+    <h3>ᴍᴇᴍʙᴀɴɢᴜɴ ᴋᴀʀʏᴀ ʜᴇʙᴀᴛ ᴅɪ ᴡᴇʙ ᴀɪ ᴅᴇɴɢᴀɴ sᴇᴛɪᴀᴘ ᴋʟɪᴋ ᴅᴀɴ ɪɴᴘᴜᴛ</h3>
+</header>
+
+<nav id="menu-icon">𓆩〄𓆪</nav>
+
+<main>
+    <video autoplay loop muted>
+        <!-- Ganti "nama_video.mp4" dengan nama file video yang Anda miliki -->
+        <source src="AI.mp4" type="video/mp4">
+    </video>
+</main>
+<main>
+    <audio autoplay controls loop>
+        <!-- Ganti "SKW.mp3" dengan nama file audio yang Anda miliki -->
+        <source src="J.Tajor.mp3" type="audio/mp3">
+    </audio>
+</main>
+
+    <p style="color: #F3F1E4; font-size: 17px;">𝚈𝚘, 𝚠𝚊𝚣𝚣𝚞𝚙 𝚙𝚎𝚗𝚐𝚐𝚞𝚗𝚊 𝚆𝚎𝚋 𝙰𝙸 𝚔𝚎𝚌𝚎! 𝙺𝚊𝚕𝚒𝚊𝚗 𝚞𝚍𝚊𝚑 𝚙𝚊𝚍𝚊 𝚗𝚢𝚘𝚋𝚊𝚒𝚗 𝚝𝚎𝚔𝚗𝚘𝚕𝚘𝚐𝚒 𝚌𝚊𝚗𝚐𝚐𝚒𝚑 𝚒𝚗𝚒, 𝚔𝚊𝚗? 𝙶𝚞𝚊 𝚌𝚞𝚖𝚊 𝚖𝚊𝚞 𝚋𝚒𝚕𝚊𝚗𝚐, 𝚒𝚗𝚒 𝚋𝚎𝚗𝚎𝚛-𝚋𝚎𝚗𝚎𝚛 𝚗𝚎𝚡𝚝 𝚕𝚎𝚟𝚎𝚕, 𝚋𝚛𝚘! 𝙿𝚎𝚜𝚎𝚗 𝚐𝚞𝚊 𝚋𝚞𝚊𝚝 𝚔𝚊𝚕𝚒𝚊𝚗: 𝚎𝚡𝚙𝚕𝚘𝚛𝚎 𝚝𝚎𝚛𝚞𝚜, 𝚓𝚊𝚗𝚐𝚊𝚗 𝚌𝚞𝚖𝚊 𝚍𝚒 𝚙𝚎𝚛𝚖𝚞𝚔𝚊𝚊𝚗, 𝚌𝚎𝚔 𝚏𝚒𝚝𝚞𝚛-𝚏𝚒𝚝𝚞𝚛𝚗𝚢𝚊 𝚢𝚊𝚗𝚐 𝚔𝚎𝚛𝚎𝚗!</p>
+    <p style="color: #F3F1E4; font-size: 17px;">𝙺𝚎𝚜𝚊𝚗 𝚐𝚞𝚊 𝚜𝚒𝚑, 𝚙𝚊𝚔𝚎 𝚆𝚎𝚋 𝙰𝙸 𝚒𝚗𝚒 𝚋𝚎𝚛𝚊𝚜𝚊 𝚔𝚊𝚢𝚊𝚔 𝚓𝚊𝚍𝚒 𝚋𝚘𝚜𝚗𝚢𝚊 𝚍𝚊𝚝𝚊. 𝚂𝚎𝚖𝚞𝚊 𝚓𝚊𝚍𝚒 𝚕𝚎𝚋𝚒𝚑 𝚐𝚊𝚖𝚙𝚊𝚗𝚐, 𝚕𝚎𝚋𝚒𝚑 𝚜𝚖𝚊𝚛𝚝, 𝚍𝚊𝚗 𝚝𝚎𝚗𝚝𝚞𝚗𝚢𝚊 𝚕𝚎𝚋𝚒𝚑 𝚔𝚎𝚔𝚒𝚗𝚒𝚊𝚗. 𝚄𝚍𝚊𝚑 𝚋𝚞𝚔𝚊𝚗 𝚓𝚊𝚖𝚊𝚗𝚗𝚢𝚊 𝚖𝚊𝚗𝚞𝚊𝚕 𝚕𝚊𝚐𝚒, 𝚜𝚎𝚔𝚊𝚛𝚊𝚗𝚐 𝚓𝚊𝚖𝚊𝚗 𝚜𝚎𝚛𝚋𝚊 𝚘𝚝𝚘𝚖𝚊𝚝𝚒𝚜!</p>
+    <p style="color: #F3F1E4; font-size: 17px;">𝚃𝚊𝚙𝚒 𝚒𝚗𝚐𝚎𝚝, 𝚢𝚊, 𝚓𝚊𝚗𝚐𝚊𝚗 𝚌𝚞𝚖𝚊 𝚊𝚜𝚢𝚒𝚔 𝚜𝚎𝚗𝚍𝚒𝚛𝚒. 𝚂𝚑𝚊𝚛𝚎 𝚙𝚎𝚗𝚐𝚊𝚕𝚊𝚖𝚊𝚗 𝚔𝚊𝚕𝚒𝚊𝚗, 𝚔𝚊𝚜𝚒𝚑 𝚖𝚊𝚜𝚞𝚔𝚊𝚗 𝚋𝚞𝚊𝚝 𝚋𝚒𝚔𝚒𝚗 𝚝𝚎𝚔𝚗𝚘𝚕𝚘𝚐𝚒 𝚒𝚗𝚒 𝚖𝚊𝚔𝚒𝚗 𝚖𝚊𝚗𝚝𝚊𝚙. 𝙺𝚒𝚝𝚊 𝚜𝚊𝚝𝚞 𝚔𝚘𝚖𝚞𝚗𝚒𝚝𝚊𝚜, 𝚋𝚛𝚘! 𝙹𝚊𝚍𝚒, 𝚐𝚊𝚜 𝚝𝚎𝚛𝚞𝚜 𝚓𝚊𝚍𝚒 𝚋𝚊𝚐𝚒𝚊𝚗 𝚍𝚊𝚛𝚒 𝚛𝚎𝚟𝚘𝚕𝚞𝚜𝚒 𝙰𝙸. 𝚂𝚝𝚊𝚢 𝚌𝚘𝚘𝚕 𝚊𝚗𝚍 𝚔𝚎𝚎𝚙 𝚛𝚘𝚌𝚔𝚒𝚗𝚐, 𝚏𝚎𝚕𝚕𝚊𝚜! 🚀✨</p>
+
+    <a href="https://www.instagram.com/pass.t_?igsh=aWF0aTRhYWxmNWVv" target="_blank">ㅤㅤㅤ𝕴𝖓𝖘𝖙𝖆𝖌𝖗𝖆𝖒ㅤㅤㅤ</a>
+
+<div id="menu-overlay"></div>
+
+<div id="menu-container">
+    <p style="color: #ffffff; font-size: 17px;">𝚂𝙴𝙼𝚄𝙰 𝙹𝙴𝙽𝙸𝚂 𝚆𝙴𝙱</p>
+
+    <p style="color: #ffffff; font-size: 5px;">―――――――――――――――――――――――――――――――――――――</p>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ɢᴘᴛ-𝟺 :</p>
+    <a href="https://chat.openai.com/">𝑪𝒉𝒂𝒕𝑮𝑷𝑻</a>
+    <a href="https://www.phind.com/">𝑷𝑯𝑰𝑫𝒄𝒐𝒎</a>
+    <a href="https://www.bing.com/">𝑩𝒊𝒏𝒈𝑨𝑰</a>
+    <a href="https://you.com/">𝒀𝑶𝑼𝒄𝒐𝒎</a>
+    <a href="https://www.perplexity.ai/">𝑷𝒆𝒓𝒑𝒍𝒆𝒙𝒊𝒕𝒚</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ᴏᴛᴏᴍᴀᴛɪs :</p>
+    <a href="https://gamma.app/">𝑮𝒂𝒎𝒎𝒂𝑨𝒑𝒑</a>
+    <a href="https://jnckmedia.com/nulis/">𝑱𝒏𝒄𝒌𝑴𝒆𝒅𝒊𝒂</a>
+    <a href="https://gitmind.com/">𝑮𝒊𝒕𝒎𝒊𝒏𝒅</a>
+    <a href="https://thearticlespinner.com/">𝑻𝒉𝒆𝒂𝒓𝒕𝒊</a>
+    <a href="https://www.google.com/intl/en/chrome/demos/speech.html">𝑽𝒐𝒊𝒄𝒆𝑨𝑰</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ɢᴀᴍᴇ :</p>
+    <a href="https://emupedia.net/beta/emuos/">𝑬𝒎𝒖𝑶𝑺</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ᴅᴇsᴀɪɴ :</p>
+    <a href="https://mockups-design.com/">𝑴𝒐𝒄𝒌𝑼𝒑</a>
+    <a href="https://kaboompics.com/">𝑲𝑩𝑶𝑴𝒑𝒊𝒄𝒔</a>
+    <a href="https://www.pngdownload.id/">𝑷𝒏𝒈𝑫𝑳</a>
+    <a href="https://www.remove.bg/">𝑹𝒆𝒎𝒐𝒗𝒆𝑩𝑮</a>
+    <a href="https://vectorizer.ai/">𝑽𝒆𝒄𝒕𝒐𝒓𝑰𝒛𝒆𝒓</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ᴋᴏᴅᴇ ᴀɪ :</p>
+    <a href="https://zzzcode.ai/">𝒁𝒁𝒁𝒄𝒐𝒅𝒆𝑨𝑰</a>
+    <a href="https://www.builder.io/">𝑩𝒖𝒊𝒍𝒅𝒆𝒓</a>
+    <a href="https://www.blackbox.ai/">𝑩𝒍𝒂𝒄𝒌𝒃𝒐𝒙𝑨𝑰</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ᴍᴀɴɪᴘᴜʟᴀᴛɪғ :</p>
+    <a href="https://fakedetail.com/">𝑭𝒂𝒌𝒆𝑫𝒆𝒕𝒂𝒊𝒍</a>
+    <a href="https://www.signalhire.com/">𝑺𝒊𝒈𝒏𝒂𝒍𝑯𝒊𝒓𝒆</a>
+
+    <p style="color: #FFFFFF; font-size: 20px;">ᴍᴇᴋᴀɴɪᴋ :</p>
+    <a href="https://www.ifixit.com/">𝑰𝑭𝑰𝑿𝑰𝑻𝒄𝒐𝒎</a>
+
+    <p>ㅤ</p>
+</div>
+
+<script>
+    var menuContainer = document.getElementById('menu-container');
+    var menuOverlay = document.getElementById('menu-overlay');
+
+    document.getElementById('menu-icon').addEventListener('click', function() {
+        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+            menuContainer.style.display = 'block';
+            menuOverlay.style.display = 'block';
+        } else {
+            menuContainer.style.display = 'none';
+            menuOverlay.style.display = 'none';
+        }
+    });
+
+    menuOverlay.addEventListener('click', function() {
+        menuContainer.style.display = 'none';
+        menuOverlay.style.display = 'none';
+    });
+</script>
+
+<footer>
+    <p> &copy; 2024 𝑊𝑒𝑏 𝐴𝐼 𝑀𝑎𝑠𝑡𝑒𝑟𝑝𝑖𝑒𝑐𝑒. 𝐴𝑙𝑙 𝑟𝑖𝑔ℎ𝑡𝑠 𝑟𝑒𝑠𝑒𝑟𝑣𝑒𝑑.</p>
+    <p>𝐵𝑦 : 𝑃𝑎𝑠𝑟𝑎ℎ 𝑇𝑒𝑙𝑎𝑢𝑚𝑏𝑎𝑛𝑢𝑎</p>
+</footer>
+
+</body>
+</html>
